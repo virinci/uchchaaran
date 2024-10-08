@@ -1,0 +1,15 @@
+[project]
+name = "uchchaaran"
+version = "0.0.1"
+description = "A text-to-speech (TTS) system using concatenative synthesis to generate speech for Devanagari-script languages. It combines pre-recorded audio units for natural, clear speech output."
+readme = "README.md"
+requires-python = ">= 3.12"
+
+dependencies = [
+	"llvmlite == 0.43.0",  # Overload to fix llvmlite failing for Python >= 3.10.
+	"librosa >= 0.10.2.post1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
