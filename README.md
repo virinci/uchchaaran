@@ -4,7 +4,7 @@ A text-to-speech (TTS) system using concatenative synthesis to generate speech f
 
 ## Instructions
 
-```console
+```
 # Initialize and activate a Python virtual environment (optional).
 
 # Run the following to install the dependencies.
