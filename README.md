@@ -7,8 +7,9 @@ A text-to-speech (TTS) system using concatenative synthesis to generate speech f
 ```console
 # Initialize and activate a Python virtual environment (optional).
 
-$ pip install -r requirements.txt  # or run your system specific command to install
-                                   # the packages listed in requirements.txt
+# Run the following to install the dependencies.
+# Or run your system specific command to install.
+$ pip install -r requirements.txt
 
 # Generate the frequency.json and syllables.txt files in ./data
 $ python main.py
